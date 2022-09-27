@@ -12,12 +12,34 @@
     <div class="header">
         <h1 id="mainHeader">Library</h1>
         <h4 id="subHeader">Let's see how much you've read.</h4>
+        <button id="newBook"> New Book +</button>
     </div>
-    <div class="main">
+    <div id="main">
         <div class="bookItem">
-            <h4 class="bookTitle">Test</h4>
-            <p class="bookPages">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe vitae repellat, in corporis expedita unde cumque molestiae</p>
+            <p id="bookTitle">The Hobbit</h4>
+            <p id="bookPages"><b>Pages:</b> 69</p>
+            <p id="bookComments"><b>Comments:</b> yes</p>
         </div>
+        
+    </div>
+    <div id="modal">
+        <form>
+            <div>
+            <label for="setBookTitle">Book Title:</label>
+            <input type="text" id="setBookTitle">
+            </div>
+
+            <div>
+            <label for="setPages">No. Of Pages:</label>
+            <input type="tel" id="setPages">
+            </div>
+
+            <div>
+            <label for="setComments">Comments:</label>
+            <input type="text" id="setComments" placeholder="Enter any comments about this title..">
+            </div>
+            <button id="createBook">Submit</button>
+        </form>
     </div>
 </body>
 </html>
