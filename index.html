@@ -7,7 +7,7 @@
     <title>Library</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body> 
     <script src="./script.js" defer></script>
     <div class="header">
         <h1 id="mainHeader">Library</h1>
@@ -15,14 +15,10 @@
         <button id="newBook"> New Book +</button>
     </div>
     <div id="main">
-        <div class="bookItem">
-            <p id="bookTitle">The Hobbit</h4>
-            <p id="bookPages"><b>Pages:</b> 69</p>
-            <p id="bookComments"><b>Comments:</b> yes</p>
-        </div>
         
     </div>
     <div id="modal">
+        <button id="closeModal">x</button>
         <form>
             <div>
             <label for="setBookTitle">Book Title:</label>
@@ -38,8 +34,9 @@
             <label for="setComments">Comments:</label>
             <input type="text" id="setComments" placeholder="Enter any comments about this title..">
             </div>
-            <button id="createBook">Submit</button>
         </form>
+
+        <button id="createBook">Submit</button>
     </div>
 </body>
 </html>
